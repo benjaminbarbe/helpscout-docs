@@ -3,11 +3,10 @@
 body {
   font-family: Graphik, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
-  background-image: url('https://d2x2losda9vsjs.cloudfront.net/docs/assets/2019/docs-brush-top.png'), url('https://d2x2losda9vsjs.cloudfront.net/docs/assets/2019/docs-brush-bottom.png');
   background-repeat: no-repeat, no-repeat;
   background-position: 0 700px, 100% 90%;
   background-size: 350px 350px, 350px 350px;
-  background-color: #FAFAFA;
+  background-color: #f8f9fa;
   overflow-x: hidden;
 }
 
@@ -18,7 +17,7 @@ h4,
 h5,
 strong {
   font-weight: 500;
-  color: #1D2B36;
+  color: #222d39;
 }
 
 strong {
@@ -118,16 +117,16 @@ footer p a {
 }
 
 /*.category-list .category:active {
-  box-shadow: 0 0 0px 2px #1292EE inset;
+  box-shadow: 0 0 0px 2px #8080ff inset;
   outline: none;
 }*/
 
 .category-list .category:hover .article-count {
-    color: #0077CC;
+    color: #8080ff;
 }
 
 .category-list .category:focus .article-count, .category-list .category:active .article-count {
-    color: #005CA4;
+    color: #4b4bfc;
 }
 
 @media screen and (max-width: 759px) {
@@ -169,7 +168,7 @@ footer p a {
 }
 
 .category-list .category p {
-  color: #7F8D9B;
+  color: #555;
   font-size: 14px;
   margin-bottom: 15px;
   line-height: 20px;
@@ -177,7 +176,8 @@ footer p a {
 
 .category-list .category .article-count {
   margin-bottom: 0;
-  color: #0077CC;
+  color: #8080ff;
+  font-weight: 500;
   transition: color 0.2s ease-in-out;
 }
 
@@ -187,7 +187,7 @@ footer p a {
 }
 
 .collection-category h2 a {
-  color: #1D2B36;
+  color: #222d39;
 }
 
 .collection-category h2 {
@@ -219,64 +219,90 @@ footer p a {
 
 /* Category: icons */
 
-#category-832 {
-  background-image: url('https://d2x2losda9vsjs.cloudfront.net/docs/assets/2019/docs-icon-logo-mark.jpg');
+#category-385, #category-565 {
+  background-image: url('https://docs.pandasuite.com/assets/images/categories/getting-started-icon.svg');
 }
 
-#category-108 {
-  background-image: url('https://d2x2losda9vsjs.cloudfront.net/docs/assets/2019/docs-icon-tools.jpg');
+#category-392, #category-572 {
+  background-image: url('https://docs.pandasuite.com/assets/images/categories/design-icon.svg');
 }
 
-#category-465 {
-  background-image: url('https://d2x2losda9vsjs.cloudfront.net/docs/assets/2019/docs-icon-reports.jpg');
+#category-395, #category-575 {
+  background-image: url('https://docs.pandasuite.com/assets/images/categories/project-icon.svg');
 }
 
-#category-74 {
-  background-image: url('https://d2x2losda9vsjs.cloudfront.net/docs/assets/2019/docs-icon-copy-email.jpg');
+#category-396, #category-576 {
+  background-image: url('https://docs.pandasuite.com/assets/images/categories/layout-icon.svg');
 }
 
-#category-23 {
-  background-image: url('https://d2x2losda9vsjs.cloudfront.net/docs/assets/2019/docs-icon-conversations.jpg');
+#category-398, #category-578 {
+  background-image: url('https://docs.pandasuite.com/assets/images/categories/dynamic-icon.svg');
 }
 
-#category-230 {
-  background-image: url('https://d2x2losda9vsjs.cloudfront.net/docs/assets/2019/docs-icon-productivity.jpg');
+#category-400, #category-580 {
+  background-image: url('https://docs.pandasuite.com/assets/images/categories/links-icon.svg');
 }
 
-#category-24 {
-  background-image: url('https://d2x2losda9vsjs.cloudfront.net/docs/assets/2019/docs-icon-user-settings.jpg');
+#category-402, #category-582 {
+  background-image: url('https://docs.pandasuite.com/assets/images/categories/components-icon.svg');
 }
 
-#category-604 {
-  background-image: url('https://d2x2losda9vsjs.cloudfront.net/docs/assets/2019/docs-icon-mobile-apps.jpg');
+#category-403, #category-583 {
+  background-image: url('https://docs.pandasuite.com/assets/images/categories/interactions-icon.svg');
 }
 
-#category-234 {
-  background-image: url('https://d2x2losda9vsjs.cloudfront.net/docs/assets/2019/docs-icon-integrations.jpg');
+#category-404, #category-584 {
+  background-image: url('https://docs.pandasuite.com/assets/images/categories/games-icon.svg');
 }
 
-#category-1205 {
-  background-image: url('https://d2x2losda9vsjs.cloudfront.net/docs/assets/2019/docs-icon-start-with-beacon.jpg');
+#category-405, #category-585 {
+  background-image: url('https://docs.pandasuite.com/assets/images/categories/ideas-icon.svg');
 }
 
-#category-1358 {
-  background-image: url('https://d2x2losda9vsjs.cloudfront.net/docs/assets/2019/docs-icon-messages.jpg');
+#category-406, #category-586 {
+  background-image: url('https://docs.pandasuite.com/assets/images/categories/integration-icon.svg');
 }
 
-#category-1211 {
-  background-image: url('https://d2x2losda9vsjs.cloudfront.net/docs/assets/2019/docs-icon-live-chat.jpg');
+#category-407, #category-587 {
+  background-image: url('https://docs.pandasuite.com/assets/images/categories/menu-icon.svg');
 }
 
-#category-41 {
-  background-image: url('https://d2x2losda9vsjs.cloudfront.net/docs/assets/2019/docs-icon-working-with-docs.jpg');
+
+#category-389, #category-569 {
+  background-image: url('https://docs.pandasuite.com/assets/images/categories/content-icon.svg');
 }
 
-#category-126 {
-  background-image: url(https://d2x2losda9vsjs.cloudfront.net/docs/assets/2019/docs-icon-managing-docs.jpg);
+#category-390, #category-570 {
+  background-image: url('https://docs.pandasuite.com/assets/images/categories/ios-icon.svg');
 }
 
-#category-217 {
-  background-image: url(https://d2x2losda9vsjs.cloudfront.net/docs/assets/2019/docs-icon-formatting-content.jpg);
+#category-391, #category-571 {
+  background-image: url('https://docs.pandasuite.com/assets/images/categories/android-icon.svg');
+}
+
+#category-394, #category-574 {
+  background-image: url('https://docs.pandasuite.com/assets/images/categories/getting-started-icon.svg');
+}
+
+#category-397, #category-577 {
+  background-image: url('https://docs.pandasuite.com/assets/images/categories/web-icon.svg');
+}
+
+#category-401, #category-581 {
+  background-image: url('https://docs.pandasuite.com/assets/images/categories/marketing-icon.svg');
+}
+
+
+#category-380, #category-560 {
+  background-image: url('https://docs.pandasuite.com/assets/images/categories/pricing-icon.svg');
+}
+
+#category-381, #category-561 {
+  background-image: url('https://docs.pandasuite.com/assets/images/categories/security-icon.svg');
+}
+
+#category-393, #category-573 {
+  background-image: url('https://docs.pandasuite.com/assets/images/categories/account-icon.svg');
 }
 
 .nav-collapse .nav {
@@ -284,7 +310,7 @@ footer p a {
 }
 
 .navbar .navbar-inner {
-  background-color: #404996;
+  background-color: #ffffff;
 }
 
 .navbar .nav > li > a {
@@ -307,14 +333,18 @@ footer p a {
   padding-right: 0;
 }
 
+.navbar .nav li a:hover {
+  color: #1ed3a3 !important;
+}
+
 .navbar .nav li a,
 .navbar .icon-private-w {
-  color: #D9DCFD;
+  color: #555;
   transition: color 0.2s;
 }
 
 .navbar .brand {
-  background: url('https://d2x2losda9vsjs.cloudfront.net/docs/assets/2019/hs-logo--white.svg') no-repeat;
+  background: url('https://pandasuite.com/wp-content/uploads/logo-pandasuite.svg') no-repeat;
   background-size: 100%, auto;
   height: 30px;
   width: 150px;
@@ -362,6 +392,7 @@ footer p a {
 
 .navbar .nav .active a {
   font-weight: 500;
+  color: #1ed3a3;
 }
 
 .nav .icon-private-w:before {
@@ -369,7 +400,7 @@ footer p a {
 }
 
 .nav .icon-private-w {
-  background-image: url('https://d2x2losda9vsjs.cloudfront.net/docs/assets/2019/icon--lock-white.svg');
+  background-image: url('https://docs.pandasuite.com/assets/images/icon--lock-white.svg');
   background-repeat: no-repeat;
   width: 24px;
   height: 24px;
@@ -396,7 +427,7 @@ footer p a {
 /* Search Hero */
 
 #docsSearch h1 {
-  color: #232A5C;
+  color: #222d39;
   display: block;
   font-size: 36px;
   font-weight: 500;
@@ -412,7 +443,8 @@ footer p a {
 #docsSearch {
   position: relative;
   border: none;
-  background-color: #d3d6ff;
+  /* background-color: #f4f4f4; */
+  background-color: #f8f9fa;
   margin-bottom: 80px;
   padding: 0;
   position: relative;
@@ -430,11 +462,13 @@ footer p a {
 @media screen and (max-width: 1024px) {
   #docsSearch {
     height: 240px;
-    background-image: url('https://d2x2losda9vsjs.cloudfront.net/docs/assets/2019/docs-hero-illustration-left-mobile.png'), url('https://d2x2losda9vsjs.cloudfront.net/docs/assets/2019/docs-hero-illustration-right-mobile.png');
-    background-position: left bottom, right bottom;
-    background-size: auto 270px, auto 270px;
+    /* background-position: left bottom, right bottom; */
+    /* background-size: auto 270px, auto 270px; */
     background-repeat: no-repeat, no-repeat;
     margin-bottom: 50px;
+    background-image: url(https://docs.pandasuite.com/assets/images/cookie.svg);
+    background-size: contain;
+    background-position: 105% -100px;
   }
 
   #docsSearch h1 {
@@ -448,49 +482,43 @@ footer p a {
   }
 }
 
+@media screen and (max-width: 767px) {
+  #docsSearch {
+    background-position: 120% -190px;
+  }
+}
+
 @media screen and (min-width: 1025px) {
   #docsSearch::before {
-    background-image: url('https://d2x2losda9vsjs.cloudfront.net/docs/assets/2019/docs-hero-illustration-left.jpg');
+    background-image: url('https://docs.pandasuite.com/assets/images/help-center-1.svg');
     background-repeat: no-repeat;
     background-size: cover;
     bottom: 0;
     content: "";
-    height: 100%;
+    height: auto;
     position: absolute;
     left: 5%;
-    top: 0;
+    top: -40%;
     transform: translateX(-50%);
-    width: 515px;
+    width: 700px;
     transition: left 0.2s;
+    /* display: none; */
   }
 
   #docsSearch::after {
-    background-image: url('https://d2x2losda9vsjs.cloudfront.net/docs/assets/2019/docs-hero-illustration-right.jpg');
+    background-image: url('https://docs.pandasuite.com/assets/images/help-center-2.svg');
     background-repeat: no-repeat;
     background-size: cover;
     bottom: 0;
     content: "";
-    height: 100%;
+    height: auto;
     position: absolute;
     left: 95%;
-    top: 0;
+    top: -10%;
     transform: translateX(-50%);
-    width: 515px;
+    width: 700px;
     transition: left 0.2s;
-  }
-
-  #contentArea::before {
-    content: '';
-    left: 50%;
-    position: absolute;
-    top: -208px;
-    background: url(https://d2x2losda9vsjs.cloudfront.net/docs/assets/2019/docs-hero-illustration-bird.png) no-repeat;
-    height: 150px;
-    width: 200px;
-    background-size: contain;
-    opacity: 0;
-    transform: translate(260px, 10px);
-    transition: opacity 0.2s;
+    /* display: none; */
   }
 }
 
@@ -507,21 +535,31 @@ footer p a {
 
 @media screen and (min-width: 1025px) and (max-width: 1399px) {
   #docsSearch::before {
-    left: 5%;
+    left: 2%;
   }
 
   #docsSearch::after {
-    left: 90%;
+    left: 105%;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1180px) {
+  #docsSearch::before {
+    left: -3%;
+  }
+
+  #docsSearch::after {
+    left: 111%;
   }
 }
 
 @media screen and (min-width: 1300px) {
   #docsSearch::before {
-    left: 10%;
+    left: 8%;
   }
 
   #docsSearch::after {
-    left: 85%;
+    left: 98%;
   }
 }
 
@@ -539,13 +577,6 @@ footer p a {
     left: 84%;
     width: 580px;
   }
-
-  #contentArea::before {
-    top: -240px;
-    right: -155px;
-    height: 200px;
-    width: 250px;
-  }
 }
 
 @media screen and (min-width: 2300px) {
@@ -558,14 +589,6 @@ footer p a {
     left: 80%;
   }
 }
-
-@media screen and (min-width: 1400px) {
-  #contentArea::before {
-    opacity: 1;
-    transform: translate(260px, 0);
-  }
-}
-
 
 /* Inputs */
 
@@ -586,8 +609,8 @@ input::placeholder {
 }
 
 input:focus, textarea:focus {
-  box-shadow: 0 0 0px 1px #1292EE inset !important;
-  border-color: #1292EE !important;
+  box-shadow: 0 0 0px 1px #8080ff inset !important;
+  border-color: #8080ff !important;
 }
 
 label {
@@ -600,7 +623,7 @@ label {
 input[type=submit] {
   border: none;
   text-shadow: none;
-  background: #38408b;
+  background: #1ED3A3;
   font-weight: 500;
   font-size: 17px;
   width: 160px;
@@ -667,13 +690,17 @@ input[type=submit] {
   font-size: 20px;
 }
 
+#searchBar button:hover {
+  background: #17b78d;
+}
+
 @media screen and (max-width: 1024px) {
   #searchBar button .icon-search {
     display: block;
   }
 
   #searchBar button {
-    background: url("https://d2x2losda9vsjs.cloudfront.net/docs/assets/2019/icon-search.svg") center center no-repeat;
+    background: url("https://docs.pandasuite.com/assets/images/icon-search.svg") center center no-repeat;
     border: 0;
     padding: 0 30px;
     position: absolute;
@@ -683,7 +710,7 @@ input[type=submit] {
   }
 
   #searchBar button:focus, #searchBar button:active {
-    background: #F1F3F5 url("https://d2x2losda9vsjs.cloudfront.net/docs/assets/2019/icon-search.svg") center center no-repeat;
+    background: #F1F3F5 url("https://docs.pandasuite.com/assets/images/icon-search.svg") center center no-repeat;
   }
 
   #searchBar button span {
@@ -693,7 +720,7 @@ input[type=submit] {
 
 @media screen and (min-width: 1025px) {
   #searchBar button {
-    background-color: #38408b;
+    background-color: #1ED3A3;
     border-radius: 4px;
     border: none;
     font-size: 17px;
@@ -704,7 +731,7 @@ input[type=submit] {
     transition: all 0.2s ease-in-out;
   }
   #searchBar button:hover, #searchBar button:active {
-    background: #232A5C;
+    background: #17b78d;
   }
 }
 
@@ -749,12 +776,12 @@ input[type=submit] {
 }
 
 .contentWrapper a, a {
-  color: #0077CC;
+  color: #8080ff;
 }
 
 .contentWrapper a:hover,
 a:hover {
-  color: #005CA4;
+  color: #4b4bfc;
   text-decoration: underline;
 }
 
@@ -799,14 +826,14 @@ a:hover {
 #fullArticle blockquote,
 #fullArticle dd,
 #fullArticle table {
-  color: #1d2b36; /* charcoal, 800 */
+  color: #555; /* charcoal, 800 */
   font-size: 16px;
   line-height: 1.55;
   margin-bottom: 1.5em;
 }
 
 #fullArticle a strong {
-  color: #0077CC;
+  color: #8080ff;
 }
 
 #fullArticle li {
@@ -819,23 +846,23 @@ a:hover {
 
 #fullArticle h3 {
   -webkit-font-smoothing: auto;
-  color: #1d2b36;
+  color: #222d39;
   font-size: 22px;
   font-weight: 500;
   line-height: 32px;
   margin: 1.8em 0 .8em;
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   #fullArticle h3 {
     font-size: 26px;
     line-height: 36px;
   }
-}
+} */
 
 #fullArticle h4 {
   -webkit-font-smoothing: auto;
-  color: #1d2b36;
+  color: #222d39;
   font-size: 18px;
   font-weight: 500;
   line-height: 28px;
@@ -852,7 +879,7 @@ a:hover {
 
 #fullArticle h5 {
   -webkit-font-smoothing: auto;
-  color: #1d2b36;
+  color: #222d39;
   font-size: 16px;
   font-weight: 500;
   line-height: 22px;
@@ -960,11 +987,11 @@ a:hover {
   width: 50px;
   height: 4px;
   left: 0;
-  background: #404996;
+  background: #1ED3A3;
 }
 
 .articleList li a:hover span {
-  color: #005CA4;
+  color: #4b4bfc;
   text-decoration: none;
 }
 
@@ -982,6 +1009,7 @@ a:hover {
   margin: 1em 0;
   padding-left: 0;
   font-size: 18px;
+  font-weight: 500;
 }
 
 .articleList a {
@@ -999,7 +1027,7 @@ a:hover {
 #sidebar h3 {
   font-size: 18px;
   text-transform: none;
-  color: #1D2B36;
+  color: #222d39;
 }
 
 #sidebar .nav-list {
@@ -1013,7 +1041,7 @@ a:hover {
 }
 
 #sidebar .nav-list a:hover {
-  color: #0077CC;
+  color: #8080ff;
 }
 
 #sidebar .nav-list .active a,
@@ -1031,11 +1059,11 @@ a:hover {
   width: 40px;
   top: 1px;
   right: 0;
-  background: url("https://d2x2losda9vsjs.cloudfront.net/docs/assets/2019/icon-search.svg") center center no-repeat;
+  background: url("https://docs.pandasuite.com/assets/images/icon-search.svg") center center no-repeat;
 }
 
 #searchBar.sm button:hover {
-  background: url("https://d2x2losda9vsjs.cloudfront.net/docs/assets/2019/icon-search.svg") center center no-repeat;
+  background: url("https://docs.pandasuite.com/assets/images/icon-search.svg") center center no-repeat;
 }
 
 #sidebar form .search-query {
@@ -1099,7 +1127,7 @@ a:hover {
 }
 
 #fullArticle .private-note {
-  background: #fff6e3 url('https://d2x2losda9vsjs.cloudfront.net/docs/assets/2019/icon--lock.svg') no-repeat top 18px right 18px;
+  background: #fff6e3 url('https://docs.pandasuite.com/assets/images/icon--lock.svg') no-repeat top 18px right 18px;
   background-repeat: no-repeat;
   padding: 20px 24px;
 }
@@ -1109,7 +1137,7 @@ a:hover {
 }
 
 #fullArticle a:hover, #fullArticle a:focus {
-  color: #005CA4;
+  color: #4b4bfc;
 }
 
 #fullArticle strong {
@@ -1117,7 +1145,7 @@ a:hover {
 }
 
 #fullArticle strong a {
-  color: #0077CC;
+  color: #8080ff;
 }
 
 .articleFoot p, .articleFoot time {
@@ -1226,7 +1254,7 @@ strong, b {
 }
 
 #serp-dd .result>li.active a {
-  color: #005CA4 !important;
+  color: #4b4bfc !important;
 }
 
 #serp-dd.sb {
@@ -1248,7 +1276,7 @@ strong, b {
 }
 
 #serp-dd .icon-private-w {
-  background-image: url('https://d2x2losda9vsjs.cloudfront.net/docs/assets/2019/icon--lock.svg');
+  background-image: url('https://docs.pandasuite.com/assets/images/icon--lock.svg');
   width: 24px;
   height: 24px;
   background-size: cover;
@@ -1267,7 +1295,7 @@ strong, b {
 }
 
 #contactModal h2 {
-  color: #1D2B36;
+  color: #222d39;
   font-weight: 500;
   font-size: 28px;
   letter-spacing: -0.35px;
@@ -1313,13 +1341,13 @@ strong, b {
 
 #contactModal input[type=submit].btn {
   width: 100%;
-  background: #404996;
+  background: #1ED3A3;
   height: 52px;
   transition: all 0.2s ease-in-out;
 }
 
 #contactModal input[type=submit].btn:hover, #contactModal input[type=submit].btn:focus, #contactModal input[type=submit].btn:active {
-  background: #232A5C;
+  background: #17b78d;
   color: #fff;
 }
 
@@ -1328,7 +1356,7 @@ strong, b {
 }
 
 #contactModal .icon-close {
-  background-image: url('https://d2x2losda9vsjs.cloudfront.net/docs/assets/2019/icon--cross.svg');
+  background-image: url('https://docs.pandasuite.com/assets/images/icon--cross.svg');
   width: 24px;
   height: 24px;
   background-size: cover;
@@ -1376,7 +1404,7 @@ strong, b {
 
 #contentArea>.appMessage em:before {
   content: "";
-  background-image: url('https://d2x2losda9vsjs.cloudfront.net/docs/assets/2019/icon--check.svg');
+  background-image: url('https://docs.pandasuite.com/assets/images/icon--check.svg');
   width: 24px;
   height: 24px;
   position: absolute;
@@ -1386,7 +1414,7 @@ strong, b {
 
 .appMessage {
   background: #D6EDFF;
-  color: #005CA4;
+  color: #4b4bfc;
   font-size: 14px !important;
   padding: 12px 30px;
 }
@@ -1404,14 +1432,14 @@ strong, b {
 }
 
 .appMessage em {
-  background: #1292EE;
+  background: #8080ff;
   font-weight: 500;
   line-height: 1.1;
 }
 
 
 .modal-backdrop {
-  background: #232A5C; /* purple 800 */
+  background: #17b78d; /* purple 800 */
 }
 
 .modal-backdrop.in {
@@ -1434,12 +1462,12 @@ strong, b {
   width: auto;
   height: 52px;
   min-width: 150px;
-  background: #404996;
+  background: #1ED3A3;
   transition: all 0.2s ease-in-out;
 }
 
 #contactForm input.btn:hover {
-  background: #232A5C;
+  background: #17b78d;
   color: #fff;
 }
 
@@ -1459,7 +1487,7 @@ strong, b {
 }
 
 .icon-print {
-  background-image: url('https://d2x2losda9vsjs.cloudfront.net/docs/assets/2019/icon--print.svg');
+  background-image: url('https://docs.pandasuite.com/assets/images/icon--print.svg');
   width: 24px;
   height: 24px;
   background-size: cover;
@@ -1528,7 +1556,7 @@ strong, b {
   line-height: 18px;
   letter-spacing: 0;
   font-weight: 500;
-  color: #1D2B36;
+  color: #222d39;
 }
 #fullArticle .demo-styles h1,
 #fullArticle .demo-styles h2,
@@ -1624,7 +1652,7 @@ body div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner a {
 body div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner a#hs-eu-confirmation-button {
   color: white !important;
   font-weight: 500 !important;
-  background: #1292ee !important;
+  background: #8080ff !important;
   border: 0 !important;
   border-radius: 4px !important;
   padding: 7px 16px !important;
