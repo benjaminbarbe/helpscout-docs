@@ -845,6 +845,10 @@ a:hover {
   margin: 0 1em 1.2em 0;
 }
 
+#fullArticle h2 {
+  margin-top: 8%;
+}
+
 #fullArticle h3 {
   -webkit-font-smoothing: auto;
   color: #222d39;
