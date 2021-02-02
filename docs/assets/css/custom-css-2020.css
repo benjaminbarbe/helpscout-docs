@@ -802,6 +802,10 @@ a:hover {
   margin-left: 0;
 }
 
+.related ul>li {
+  font-weight: 500;
+}
+
 .related ul>li a {
   margin-left: 0;
 }
