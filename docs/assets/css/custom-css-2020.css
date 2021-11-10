@@ -923,6 +923,13 @@ a:hover {
   padding: 0;
 }
 
+#fullArticle video {
+  border: 1px solid #D5DCE1;
+  padding: 1em 1em;
+  border-radius: 4px;
+  width: calc(100% - 2em);
+}
+
 #fullArticle .index-list {
   background: #F9FAFA;
   border-left: 4px solid #AAAEB7;
