@@ -778,6 +778,7 @@ input[type=submit] {
 
 .contentWrapper a, a {
   color: #8080ff;
+  font-weight: 500;
 }
 
 .contentWrapper a:hover,
