@@ -306,6 +306,18 @@ footer p a {
   background-image: url('https://docs.pandasuite.com/assets/images/categories/account-icon.svg');
 }
 
+#category-913, #category-901 {
+  background-image: url('https://docs.pandasuite.com/assets/images/categories/ui-icon.svg');
+}
+
+#category-399, #category-941 {
+  background-image: url('https://docs.pandasuite.com/assets/images/categories/windows-icon.svg');
+}
+
+#category-798, #category-796 {
+  background-image: url('https://docs.pandasuite.com/assets/images/categories/plan-icon.svg');
+}
+
 .nav-collapse .nav {
   margin-top: 40px;
 }
