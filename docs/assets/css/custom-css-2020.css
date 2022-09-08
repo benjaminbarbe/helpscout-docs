@@ -1701,3 +1701,32 @@ body div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner div#hs-en
   margin: 0 !important;
   font-size: 14.5px !important;
 }
+
+/* New classes */
+.link-article {
+  background-color: unset;
+  box-shadow: rgb(248, 250, 252) 0px 0px 0px 2px, rgba(75, 75, 252, 0.4) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+  border-radius: .375rem;
+  border: 1px solid rgb(203 213 225);
+  padding: 20px 25px 20px 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link-article:hover {
+  text-decoration: none;
+}
+
+.link-article > svg {
+  width: 2rem;
+  height: 2rem;
+  color: #4b4bfc;
+  opacity: 0.7;
+  align-self: center;
+}
+
+.caption {
+  color: #6b7280;
+  margin-top: -2em;
+  margin-bottom: 2em;
+}
