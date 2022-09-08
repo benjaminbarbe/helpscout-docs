@@ -1713,6 +1713,10 @@ body div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner div#hs-en
   justify-content: space-between;
 }
 
+.link-article > p:last-child {
+  font-size: 0px !important;
+}
+
 .link-article svg {
   width: 2rem;
   height: 2rem;
