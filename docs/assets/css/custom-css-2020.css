@@ -1726,7 +1726,7 @@ body div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner div#hs-en
 }
 
 .caption {
-  color: #6b7280;
-  margin-top: -2em;
-  margin-bottom: 2em;
+  color: #6b7280 !important;
+  margin-top: -2em !important;
+  margin-bottom: 2em !important;
 }
