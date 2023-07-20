@@ -318,6 +318,18 @@ footer p a {
   background-image: url('https://docs.pandasuite.com/assets/images/categories/plan-icon.svg');
 }
 
+#category-1044, #category-1049 {
+  background-image: url('https://docs.pandasuite.com/assets/images/categories/new-icon.svg');
+}
+
+#category-1005, #category-1004 {
+  background-image: url('https://docs.pandasuite.com/assets/images/categories/multimedia-icon.svg');
+}
+
+#category-986, #category-988 {
+  background-image: url('https://docs.pandasuite.com/assets/images/categories/help-icon.svg');
+}
+
 .nav-collapse .nav {
   margin-top: 40px;
 }
