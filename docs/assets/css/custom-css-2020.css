@@ -24,6 +24,10 @@ strong {
   -webkit-font-smoothing: auto;
 }
 
+footer span {
+  display: none;
+}
+
 /* Web fonts */
 
 /* Graphik Medium */
